@@ -1,0 +1,68 @@
+/*base*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+ }
+/*Header*/
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px 0px 10px;
+}
+Header p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*Main*/
+main {
+    display: flex;
+    height: 400px;
+    width: 1000px;
+}
+.pictures {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+img {
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.first-picture h3, p{
+    vertical-align: top;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-picture p{
+    font-size: 15px;
+}
+.first-picture span{
+    position: absolute;
+    top: 140px;
+    left: 460px;
+    background-color: white;
+    width: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+.second-picture{
+    padding-left: 13px;
+}
+.second-picture h3{
+    vertical-align: top;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second-picture span{
+    position: absolute;
+    top: 140px;
+    left: 980px;
+    background-color: white;
+    width: 25px;
+    text-align: center;
+    border-radius: 5px;
+}

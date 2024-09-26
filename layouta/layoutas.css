@@ -1,0 +1,127 @@
+/*base*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+ }
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .whole-container{
+ }
+ /*Header*/
+ header{
+    display: flex;
+    width: 800px;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+ }
+
+/*main*/
+.main-containers{
+    display: flex;
+    gap: 1;
+    flex-wrap: wrap;
+    width: 800px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Pirmi du konteineriai*/
+.first-containers{
+    width: 300px;
+}
+.hero-container,
+.sidebar-container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    justify-content: start;
+    align-items: center;  
+    padding-top: 10px;
+}
+.hero-container{
+    background-color: violet;
+    height: 200px;
+}
+.sidebar-container{
+    background-color: rgb(0, 173, 0);
+    height: 350px;
+}
+/*Antri konteineriai*/
+.second-containers{
+    display: flex;
+    flex-flow: column wrap;
+}
+.maincontent-container,
+.extracontent-container{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 10px;
+}
+.maincontent-container{
+    height: 350px;
+    width: 500px;
+    background-color: yellow;
+}
+.extracontent-container{
+    background-color: rgb(255, 0, 0);
+    height: 200px;
+}
+
+ /*footer*/
+ 
+ /*Treti konteineriai*/
+ .footer-container{
+    display: flex;
+    flex-flow: row wrap;
+    
+ }
+ .twocontainers{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 50%;
+ }
+ .relatedimages{
+    background-color: rgb(0, 206, 0);
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 5px;
+ }
+ .relatedposts{
+    background-color: pink;
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    margin-bottom: 5px;
+ }
+ .singlecontainer{
+    background-color: orange;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+ }
+
+ footer{
+    display: flex;
+    width: 800px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 150px;
+    margin-top: 5px;
+ }
+
